@@ -16,11 +16,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/tradplus/TradPlusAdSDK-SPM.git",
-            .exact("15.17.0")
+            .exact("15.18.0")
         ),
         .package(
             url: "https://github.com/vervegroup/hybid-ios-spm-sdk.git",
-            .exact("3.9.2")
+            .exact("3.9.3")
         ),
     ],
     targets: [
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TPVerveAdapter",
-            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-HyBid/releases/download/15.17.0/TPVerveAdapter-15.17.0.xcframework.zip",
-            checksum: "b9ebb497f0a83c5e34cfd06fa5e8cd1e5f416eb2419cff12e0bbab953d7307a9"
+            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-HyBid/releases/download/15.18.0/TPVerveAdapter-15.18.0.xcframework.zip",
+            checksum: "bcf321aee15ec72eb6198edd520ed6e02c1f5ded0e259c7afb5076a13228438f"
         ),
     ]
 )
